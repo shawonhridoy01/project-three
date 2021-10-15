@@ -1,0 +1,146 @@
+:root {
+    --text-color: #FFFEFF;
+    --header: #121B2A;
+    --heading-text:#0275B6;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: var(--header);
+    padding: 30px 0;
+    box-shadow: 0 14px 28px rgba(252, 248, 248, 0.25), 0 10px 10px rgba(255, 250, 250, 0.22);
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex-basis: 10%;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 23px;
+}
+.btn{
+    text-align: center;
+    margin-top: -25px;
+    
+}
+.btn .btn1{
+    background-color: #FFFEFF;
+    padding: 13px 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.btn .btn1 i{
+    margin-right: 10px;
+    color: #000;
+    
+}
+
+.btn .btn2{
+    background-color: #0078BD;
+    padding: 13px 20px;
+    color: #FFFEFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.btn .btn2 i{
+    margin-right: 10px;
+    color: #FFFEFF;
+}
+
+
+
+nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0 20px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+
+}
+nav ul li a:hover{
+    color: #094E78;
+}
+
+/* banner section start from here  */
+
+#banner{
+    background:#1b2536;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.main-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.banner-content{
+    flex-basis: 60%;
+    margin-top: 100px;
+}
+.main-banner span{
+    color: #FFFEFF;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.main-banner h1{
+    color: #0078BD;
+    font-size: 50px;
+}
+.main-banner p{
+    color: white;
+    line-height: 25px;
+}
+button{
+    font-size: 20px;
+    background: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    padding: 13px 35px;
+    color: gray;
+    
+}
+
+button i{
+    color: #0078BD;
+    margin-left: 10px;
+    
+}
+.banner-img{
+    width:40%;
+}
+.banner-img img{
+    width: 100%;
+}
